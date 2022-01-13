@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+psycopg = "*"
+python-dotenv = "*"
 
 [dev-packages]
 pylint = "*"
