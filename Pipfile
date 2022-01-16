@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-psycopg = "*"
+fastapi = {extras = ["all"], version = "*"}
+sqlalchemy = "*"
 python-dotenv = "*"
+pydantic = "*"
+psycopg = "*"
+psycopg2 = "*"
 
 [dev-packages]
-pylint = "*"
-
-[requires]
-python_version = "3.9"
